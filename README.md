@@ -21,7 +21,7 @@ Metacello new
 #haltOnStateAccess
 
 #haltOnReadAccessTo: anInstVarName
-#haltOnWriteAccessTo:anInstVarName
+#haltOnWriteAccessTo: anInstVarName
 #haltOnAccessTo: anInstVarName
 
 #removeStateAccessHalts
