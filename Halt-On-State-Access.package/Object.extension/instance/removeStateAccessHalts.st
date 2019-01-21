@@ -1,0 +1,3 @@
+*Halt-On-State-Access
+removeStateAccessHalts
+	ObjectCentricBreakpointLinksRegistry removeLinksforObject: self

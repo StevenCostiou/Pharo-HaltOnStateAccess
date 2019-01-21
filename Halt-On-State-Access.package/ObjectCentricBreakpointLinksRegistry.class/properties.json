@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Halt-On-State-Access",
+	"classinstvars" : [
+		"registry"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"permalinks"
+	],
+	"name" : "ObjectCentricBreakpointLinksRegistry",
+	"type" : "normal"
+}
