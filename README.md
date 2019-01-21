@@ -10,3 +10,19 @@ Metacello new
     repository: 'github://StevenCostiou/Pharo-HaltOnStateAccess';
     load.
 ```
+# How to use
+- get an object
+- call the API
+
+# API
+```Smalltalk
+#haltOnWriteAccess
+#haltOnReadAccess
+#haltOnStateAccess
+
+#haltOnReadAccessTo: anInstVarName
+#haltOnWriteAccessTo:anInstVarName
+#haltOnAccessTo: anInstVarName
+
+#removeStateAccessHalts
+```
