@@ -1,3 +1,3 @@
 *Halt-On-State-Access
-haltOnWriteAccessTo: anInstVarName
+haltOnWriteTo: anInstVarName
 	^self haltOnAccess: #write to: anInstVarName asSymbol
