@@ -7,4 +7,4 @@ setClassIndirectionForObjectCentricInstrumentedObject: anObject
 	class isAnonymous
 		ifTrue: [ class methodDict
 				at: #class
-				ifAbsent: [ class compile: 'class ^class superclass' ] ]
+				ifAbsent: [ class compile: 'class ^super class superclass' ] ]
