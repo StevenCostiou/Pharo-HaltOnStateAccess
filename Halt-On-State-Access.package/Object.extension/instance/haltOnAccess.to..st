@@ -2,7 +2,7 @@
 haltOnAccess: access to: instVarName
 	| link |
 	link := self haltOnAccessLink.
+	self link: link toSlotNamed: instVarName option: access.
 	ObjectCentricBreakpointLinksRegistry
 		addBreakpointLink: link
-		forObject: self.
-	self link: link toSlotNamed: instVarName option: access
+		forObject: self

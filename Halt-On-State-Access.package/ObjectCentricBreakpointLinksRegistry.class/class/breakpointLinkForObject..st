@@ -1,3 +1,3 @@
 accessing
 breakpointLinkForObject: anObject
-	^self registry at: anObject ifAbsentPut: Set new
+	^self registryAt: anObject
