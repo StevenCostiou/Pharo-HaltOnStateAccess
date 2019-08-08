@@ -3,7 +3,7 @@ haltOnAccess: access
 	| link |
 	link := self haltOnAccessLink.
 	self class slotNames
-		do: [ :slotName | self link: link toSlotNamed: slotName option: access ].
+		do: [ :slotName | self haltOnAccess: access to: slotName ].
 	ObjectCentricBreakpointLinksRegistry
 		addBreakpointLink: link
 		forObject: self
